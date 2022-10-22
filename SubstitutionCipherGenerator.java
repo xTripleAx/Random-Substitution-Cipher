@@ -19,7 +19,7 @@ public class SubstitutionCipherGenerator {
 		Substitution[26] = alphabet[26]; 
 
 		
-		// Create the substitution Cipher bu shuffling the Substitution Array three times
+		// Create the substitution Cipher by shuffling the Substitution Array three times
 		for (int j = 0; j < 3 ; j++)
 		{
 			for (int i = 0; i < alphabet.length; i++) {
